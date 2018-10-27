@@ -79,7 +79,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                <input type="button" value="Home" onclick="self.location.href='{{route('home.index')}}'"/>
+                <input type="button" value="News" onclick="self.location.href='{{route('news.index')}}'"/>
                 </div>
 
                 <div class="links">
